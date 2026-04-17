@@ -1,0 +1,4 @@
+theme = catppuccin-mocha.conf
+font-size = 23
+gtk-titlebar = false
+window-decoration=false
