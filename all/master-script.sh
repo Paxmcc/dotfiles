@@ -1,6 +1,8 @@
 #!/bin/bash
 
-sudo pacman -Syy stow --needed --noconfirm
+echo "Installing Dotfiles, please wait..."
+
+sudo pacman -Syy stow --needed --noconfirm >/dev/null 2>&1
 
 chmod +x nvim.sh
 chmod +x i3.sh
