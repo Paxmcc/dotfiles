@@ -11,6 +11,7 @@ chmod +x ghostty.sh
 chmod +x zsh.sh
 chmod +x polybar.sh
 chmod +x rofi.sh
+chmod +x backgrounds.sh
 
 ./nvim.sh
 ./i3.sh
@@ -19,3 +20,4 @@ chmod +x rofi.sh
 ./zsh.sh
 ./polybar.sh
 ./rofi.sh
+./backgrounds.sh
