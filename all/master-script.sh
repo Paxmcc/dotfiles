@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -Syy stow
+sudo pacman -Syy stow --needed --noconfirm
 
 chmod +x nvim.sh
 chmod +x i3.sh
