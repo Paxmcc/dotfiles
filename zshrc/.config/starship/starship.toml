@@ -1,0 +1,29 @@
+
+scan_timeout = 100
+command_timeout = 500
+
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = false
+follow_symlinks = false
+
+format = """
+$character\
+"""
+
+right_format = """
+$directory\
+$os\
+"""
+
+[line_break]
+disabled = true
+
+[directory]
+format = "[$path ]($style)"
+
+[os.symbols]
+Arch = "󰣇"
+
+[os]
+disabled = false

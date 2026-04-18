@@ -7,4 +7,5 @@ makepkg -si
 
 yay -Syy picom-git
 
+cd ~/Dotfiles/
 stow picom
