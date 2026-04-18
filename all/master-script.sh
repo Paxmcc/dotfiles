@@ -10,6 +10,7 @@ chmod +x picom.sh
 chmod +x ghostty.sh
 chmod +x zsh.sh
 chmod +x polybar.sh
+chmod +x rofi.sh
 
 ./nvim.sh
 ./i3.sh
@@ -17,3 +18,4 @@ chmod +x polybar.sh
 ./ghostty.sh
 ./zsh.sh
 ./polybar.sh
+./rofi.sh
