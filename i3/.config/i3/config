@@ -9,7 +9,7 @@ exec_always --no-startup-id xrandr --output HDMI-1 --mode 2560x1440 --rate 144
 exec_always --no-startup-id dunst
 exec --no-startup-id redshift
 bindsym $mod+Shift+l exec --no-startup-id i3lock -i ~/.config/backgrounds/lock-wallpaper.png
-
+exec_always --no-startup-id pulseaudio -k
 
 bindsym $mod+Shift+Control+l exec --no-startup-id i3lock -i ~/.config/backgrounds/lock-wallpaper.png;exec --no-startup-id systemctl suspend
 bindsym $mod+space exec --no-startup-id rofi -show drun
